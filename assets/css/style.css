@@ -1,22 +1,21 @@
-/**
-* Template Name: Personal - v4.8.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
   color: #fff;
   position: relative;
   background: transparent;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
 }
 
 body::before {
@@ -90,7 +89,10 @@ h6 {
   color: #fff;
   line-height: 1;
   display: inline-block;
+  text-shadow: 2px 2px 4px rgba(255, 2, 2, 0.8); /* Adjust the values as needed */
 }
+
+
 
 #header h2 {
   font-size: 24px;
@@ -361,7 +363,8 @@ section.section-show {
 
 section .container {
   background: rgba(0, 0, 0, 0.9);
-  padding: 30px;
+  padding: 20px;
+  border-radius: 4%;
 }
 
 @media (max-width: 768px) {
@@ -762,7 +765,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #0d00ff;
 }
 
 .services .icon-box:hover h4 a,
@@ -1145,7 +1148,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #1500ff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1223,4 +1226,11 @@ section .container {
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
